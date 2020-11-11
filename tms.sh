@@ -50,6 +50,7 @@ then
     echo $?
 fi
 
+# If argument is not 0 or 1
 if [ "$throttling_state" \> "1" ];
 then
     show_help
