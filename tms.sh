@@ -16,6 +16,8 @@ EOF
 # Variables
 throttling_state=""
 no_args="true"
+
+# Get opts section
 while getopts "hva:" opt; do
     case "$opt" in
         h)
